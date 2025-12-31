@@ -1,0 +1,16 @@
+MANORE-website/
+├── index.html
+├── image.html
+├── cart.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── images/
+    ├── tie.jpg
+    ├── tie2.jpg
+    ├── belt.jpg
+    ├── belt2.jpg
+    ├── watch.jpg
+    ├── watch2.jpg
+    └── sunglass.jpg
