@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANORÉ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">MANORÉ</div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="image.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Featured Products -->
+  <section class="home-products">
+    <h2>Featured Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="images/tie.jpg" alt="Tie">
+        <h3>Tie</h3>
+        <p>৳ 500</p>
+        <a href="image.html" class="btn">View Shop</a>
+      </div>
+      <div class="product-card">
+        <img src="images/belt.jpg" alt="Belt">
+        <h3>Belt</h3>
+        <p>৳ 600</p>
+        <a href="image.html" class="btn">View Shop</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="manore-footer">
+    <p>&copy; 2025 MANORÉ. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANORÉ Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">MANORÉ</div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="image.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Cart Section -->
+  <section class="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p id="cart-total">Total: ৳ 0</p>
+    <button id="checkout-btn">Checkout</button>
+  </section>
+
+  <footer class="manore-footer">
+    <p>&copy; 2025 MANORÉ. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

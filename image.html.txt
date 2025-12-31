@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANORÉ Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">MANORÉ</div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="image.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Products Grid -->
+  <section class="home-products">
+    <h2>All Products</h2>
+    <div class="products-grid">
+
+      <div class="product-card">
+        <img src="images/tie.jpg" alt="Tie">
+        <h3>Tie</h3>
+        <p>৳ 500</p>
+        <button class="add-to-cart" data-name="Tie" data-price="500">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/tie2.jpg" alt="Tie2">
+        <h3>Tie2</h3>
+        <p>৳ 550</p>
+        <button class="add-to-cart" data-name="Tie2" data-price="550">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/belt.jpg" alt="Belt">
+        <h3>Belt</h3>
+        <p>৳ 600</p>
+        <button class="add-to-cart" data-name="Belt" data-price="600">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/belt2.jpg" alt="Belt2">
+        <h3>Belt2</h3>
+        <p>৳ 650</p>
+        <button class="add-to-cart" data-name="Belt2" data-price="650">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/watch.jpg" alt="Watch">
+        <h3>Watch</h3>
+        <p>৳ 2000</p>
+        <button class="add-to-cart" data-name="Watch" data-price="2000">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/watch2.jpg" alt="Watch2">
+        <h3>Watch2</h3>
+        <p>৳ 2500</p>
+        <button class="add-to-cart" data-name="Watch2" data-price="2500">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/sunglass.jpg" alt="Sunglass">
+        <h3>Sunglass</h3>
+        <p>৳ 1200</p>
+        <button class="add-to-cart" data-name="Sunglass" data-price="1200">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="manore-footer">
+    <p>&copy; 2025 MANORÉ. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
